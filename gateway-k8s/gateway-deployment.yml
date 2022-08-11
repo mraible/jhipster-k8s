@@ -63,8 +63,6 @@ spec:
               value: jdbc:postgresql://gateway-postgresql.demo.svc.cluster.local:5432/gateway
             - name: SPRING_DATASOURCE_USERNAME
               value: gateway
-            - name: SPRING_R2DBC_USERNAME
-              value: gateway
             - name: SPRING_R2DBC_PASSWORD
               valueFrom:
                 secretKeyRef:
